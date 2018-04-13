@@ -1,0 +1,316 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: '微软雅黑';
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+body {
+	background: #EDEDED;
+}
+
+/*顶部开始*/
+header {
+	width:100%;
+	height: 72px;
+	background: #343434;
+	position: fixed;
+	top:0px;
+	left:0;
+	box-shadow: 0 0 3px 2px #eeeeee;
+	position: fixed;
+	top:0;
+	left:0;
+	opacity: .5;
+	z-index: 999;
+}
+.header-left {
+	font-size: 30px;
+	position: absolute;
+	top: 15px;
+	font-weight: 900;
+	color: #FFF;
+}
+.header-right {
+	font-size: 20px;
+	position: absolute;
+	right:0px;
+	top: 20px;
+	color: #FFF;
+}
+.header-right span {
+	margin-right: 20px;
+	text-align: center;
+}
+.header-content {
+	width: 1200px;
+	height: 72px;
+	background: #343434;
+	margin: 0 auto;
+	position: relative;
+}
+/*灯光*/
+.light1, .light2, .light3 {
+	z-index: -1;
+	height: 30px;
+	width: 50px;
+	background: #343434;
+	position: absolute;	
+	bottom: 0px;
+	border-radius: 50%;
+	box-shadow: 0 15px 15px 1px #f9fb61;
+}
+.light1 {
+	left:20px;
+}
+.light2 {
+	left:575px;
+}
+.light3 {
+	right:20px;
+}
+
+/*顶部结束*/
+/*个人信息开始*/
+.person-info {
+	height: 550px;
+	width: 1200px;
+	margin: 100px auto;
+	border-radius: 50px;
+	box-shadow: 0 0 3px 2px #787878;
+	overflow: hidden;
+	background: #FFF;
+}
+.person-info:hover {
+	box-shadow: 0 0 31px 2px #787878;
+}
+.person-photo {
+	margin-left: 25px;
+	float: left;
+	width: 550px;
+	height: 550px;
+	background: #FFF;
+	background: #c7c7c7;
+}
+.person-photo img {
+	width: 550px;
+}
+.person-write {
+	margin-right: 25px;
+	float: right;
+	width: 550px;
+	height: 550px;
+	background: #FFF;
+}
+.person-write p {
+	width: 100%;
+	float: left;
+	padding: 10px;
+	margin-top: 25px;
+	padding-left: 90px; 
+	color: #a09d9d;
+	text-shadow: 0 0 1px  #787878;
+}
+.person-write p:first-child {
+	margin-top: 90px;
+}
+/*个人信息结束*/
+
+/*技能展示开始*/
+.skill {
+	width: 100%;
+	height: 474px;
+	background: #FFF;
+}
+.skill-top {
+	float: left;
+	width: 100%;
+	height: 48px;
+	margin-top: 66px;
+}
+.skill-top p {
+	text-align: center;
+	font-weight: 900;
+}
+.skill-bottom {
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	height: 336px;
+}
+.skill-info {
+	width: 1200px;
+	height: 336px;
+	margin: 0 auto;
+}
+.skill-info a {
+	float: left;
+	width: 382.666px;
+	height: 150px;
+	background: #EDEDED;
+	margin-right: 26px;
+	margin-top: 16px;	
+	border-radius: 20px;
+	box-shadow: 0 0 25px 1px #FFF;	
+}
+.skill-info a:hover {
+	box-shadow: 0 0 31px 2px #787878;
+}
+.skill-info a p {
+	float: left;
+	text-align: center;
+	/*line-height: 40px;*/
+	width: 100%;
+	height: auto;
+}
+.skill-info a p:first-child {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.skill-info a p:first-child i {
+	font-size: 46px;
+}
+.skill-info a p:last-child {
+	font-size: 16px;
+	margin-top: 10px;
+}
+.skill-info a p:not(:first-child) {
+	color: #686565;
+	font-size: 14px;
+}
+.skill-info a:nth-child(3n) {
+	margin-right: 0px;
+}
+/*技能展示结束*/
+
+/*作品展示开始*/
+.productionShow {
+	margin-top: 80px;
+	width: 100%;
+	height: auto;
+	background: #f6f6f6;
+	margin-bottom: 30px;background: url(../img/bg_3d.png);background-size: 100% 100%;height:725px ;	
+}
+
+
+
+
+/*轮播*/
+.lb_gl{margin-bottom: 30px;background: url(../images/bg_3d.png);background-size: 100% 100%;height:725px ;}
+.productionShow .productionShow-banner .container{width: 1200px;margin:0 auto;position: relative;}
+.pictureSlider{height: 518px;margin-bottom: 24px;}
+.poster-item{background: #fff;height: 453px;width:336px;border-radius: 10px;padding:45px 23px 20px 23px;
+	transition: all 0.5s;cursor: default;
+	-moz-transition: all 0.5s;cursor: default;
+	-webkit-transition: all 0.5s;cursor: default;
+	-o-transition: all 0.5s;cursor: default;
+}
+.turn_3d{text-align: center;color: #000;font-weight: 900;padding: 66px 0;}
+.xxgy{font-size: 30px;font-weight: 900;padding-left: 10px;}
+.poster-item .say{font-size: 18px;margin-bottom: 5px;padding-left: 10px;}
+.students_star{padding:10px 10px 0 10px ;}
+.cell_list{margin-bottom: 20px;color:#999;font-size: 18px;overflow: hidden;}
+.darks{color: #000;padding-left: 10px;}
+.zwjs{border-top:1px solid #d0cddb;line-height: 26px;padding-top: 5px;color: #999;font-size: 12px;max-height: 84px;overflow: hidden;}
+.for_btn{position: relative;height:214px;overflow:hidden}
+/*.in_page{position: absolute;left: 50%;top:50%;width:40px;height: 40px;margin-left: -20px;margin-top: -20px;}*/
+/*.in_page>img{width: 40px;height: 40px;}*/
+
+.check_more{width: 180px;height: 50px;line-height: 50px;text-align: center;color:#fff;background: #bc241d;margin:0 auto;display: block;}
+
+
+/*作品展示结束*/
+
+/*版权开始*/
+.copyright {
+	float: left;
+	width: 100%;
+	height: 68px;
+	background: #FAFAFA;
+	margin-top: 66px;
+}
+.copyright-content {
+	margin: 0 auto;
+	width: 1200px;
+	height: 68px;
+	position: relative;
+}
+.copyright .copyright-content .twoCode {
+	height: 200px;
+	width: 160px;
+	background: red;
+	position: absolute;
+	top: -220px;
+	left: 43.5%;
+	z-index: 999;
+	border-radius: 12px;
+	box-shadow: 0 0 3px 2px gray;
+	overflow: hidden;
+	display: none;
+}
+.copyright .copyright-content .twoCode img {
+	float: left;
+	height: 160px;
+	width: 100%;
+	background: yellow;
+	box-shadow: 0 0 1px 1px #000;
+}
+.copyright .copyright-content .twoCode a div {
+	float: left;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	background: #EDEDED;
+}
+
+.copyright .copyright-content .twoCode a div i:hover {
+	border-radius: 50%;
+	box-shadow: 0 0 31px 2px #787878;
+}
+
+.copyright-content {
+	line-height: 26px;
+}
+.copyright-content p {
+	margin-top: 26px;
+	/*margin-left: 30px;*/
+	height: 26px;
+}
+.copyright-info{
+	float: left;
+	padding-left: 60px; 
+	font-size: 16px;
+	width: 20%;
+}
+.copyright-icon {
+	text-align: center;
+}
+.copyright-icon a i {
+	font-size: 26px;
+	border-radius: 50%;
+}
+.copyright-icon a:not(:first-child) i {
+	margin-left: 20px;
+}
+.copyright-icon a i:hover {
+	box-shadow: 0 0 31px 2px #787878;
+}
+.copyright-bottom {
+	float: left;
+	width: 100%;
+	height: 38px;
+	background: #FAFAFA;
+}
+.copyright-bottom p {
+	text-align: center;
+	margin-top: 2px;
+	font-size: 14px;
+	font-weight: 300;
+}
+/*版权结束*/
