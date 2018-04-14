@@ -41,11 +41,11 @@ header {
 	position: absolute;
 	right:0px;
 	top: 20px;
-	color: #FFF;
 }
-.header-right span {
+.header-right a span {
 	margin-right: 20px;
 	text-align: center;
+	color: #FFF;
 }
 .header-content {
 	width: 1200px;
@@ -85,6 +85,7 @@ header {
 	box-shadow: 0 0 3px 2px #787878;
 	overflow: hidden;
 	background: #FFF;
+	position: relative;
 }
 .person-info:hover {
 	box-shadow: 0 0 31px 2px #787878;
@@ -94,10 +95,20 @@ header {
 	float: left;
 	width: 550px;
 	height: 550px;
-	background: #FFF;
 	background: #c7c7c7;
 }
-.person-photo img {
+.person-photo2 {
+	margin-left: 25px;
+	float: left;
+	width: 550px;
+	height: 550px;
+	background: #c7c7c7;
+	position: absolute;
+	top:-550px;
+	left:0;
+	transition: all .2;
+}
+.person-photo img, .person-photo2 img {
 	width: 550px;
 }
 .person-write {
